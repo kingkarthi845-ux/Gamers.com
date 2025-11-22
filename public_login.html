@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Login - Gaming Arena</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Gaming Arena</h1>
+    <nav>
+      <a href="/">Home</a>
+      <a href="/games">Games</a>
+      <a href="/login">Login</a>
+      <a href="/register">Register</a>
+    </nav>
+  </header>
+  <main>
+    <form class="card" action="/login" method="POST" autocomplete="off">
+      <h2>Login</h2>
+      <input type="text" name="username" placeholder="Username" required />
+      <input type="password" name="password" placeholder="Password" required />
+      <button type="submit">Login</button>
+      <p style="margin:18px 0 0 0;font-size:.93em;">Don't have an account? <a href="/register" style="color:#48cae4;">Register</a></p>
+    </form>
+  </main>
+  <footer>&copy; 2025 Gaming Arena.</footer>
+</body>
+</html>
